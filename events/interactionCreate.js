@@ -39,7 +39,7 @@ module.exports = {
           .setColor('6d6ee8')
           .setAuthor({name: `${interaction.user.username}'s Ticket`, iconURL: 'https://i.imgur.com/oO5ZSRK.png'})
           .setDescription('Select the category of your ticket')
-          .setFooter({text: `${client.user.tag} || github.com/blackknight683`, iconURL: client.user.displayAvatarURL()})
+          .setFooter({text: `${client.user.tag} || github.com/norzdev`, iconURL: client.user.displayAvatarURL()})
           .setTimestamp();
 
         const row = new client.discord.MessageActionRow()
@@ -84,7 +84,7 @@ module.exports = {
                   .setColor('6d6ee8')
                   .setAuthor({name: 'Ticket', iconURL: interaction.user.displayAvatarURL()})
                   .setDescription(`<@!${interaction.user.id}> Created a ticket with issues regarding \`${i.values[0]}\``)
-                  .setFooter({text: `${client.user.tag} || github.com/blackknight683`, iconURL: client.user.displayAvatarURL()})
+                  .setFooter({text: `${client.user.tag} || github.com/norzdev`, iconURL: client.user.displayAvatarURL()})
                   .setTimestamp();
 
                 const row = new client.discord.MessageActionRow()
@@ -179,7 +179,7 @@ module.exports = {
                 .setColor('6d6ee8')
                 .setAuthor({name: 'Ticket', iconURL: 'https://i.imgur.com/oO5ZSRK.png'})
                 .setDescription('```Ticket Summary```')
-                .setFooter({text: `${client.user.tag} || github.com/blackknight683`, iconURL: client.user.displayAvatarURL()})
+                .setFooter({text: `${client.user.tag} || github.com/norzdev`, iconURL: client.user.displayAvatarURL()})
                 .setTimestamp();
 
               const row = new client.discord.MessageActionRow()
